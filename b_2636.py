@@ -25,6 +25,7 @@ R, C = map(int, input().split())
 
 matrix = [list(map(int, input().rstrip().split())) for _ in range(R)]
 
+
 answer = 0
 cheese_cnt = get_cheese_cnt()
 prev_cnt = cheese_cnt
